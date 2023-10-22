@@ -1,8 +1,10 @@
+import imgMe from "/img/me.jpg"
+
 function Me() {
   return (
     <div className="contenedor-card flex flex-col gap-4 justify-center items-center lg:flex-row">
       <img
-        src="/img/me.jpg"
+        src={imgMe}
         alt="Harold Carazas"
         className="rounded-xl w-[300px]"
       />

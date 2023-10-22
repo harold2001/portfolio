@@ -1,8 +1,10 @@
+import img from "/img/funval.png"
+
 function Experience() {
   return (
     <div className="flex gap-3">
       <div className="w-[35%] pt-5">
-        <img src="/img/funval.png" alt="FUNVAL" />
+        <img src={img} alt="FUNVAL" />
       </div>
       <div className="w-[65%] flex flex-col gap-5 text-paragraph">
         <div>
