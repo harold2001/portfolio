@@ -1,4 +1,6 @@
 import imgMe from "/img/me.jpg"
+import iconEnvelope from "/icons/envelope.svg"
+import iconTelephone from "/icons/telephone.svg"
 
 function Me() {
   return (
@@ -16,11 +18,11 @@ function Me() {
 
         <div>
           <div className="flex gap-4">
-            <img src="/icons/envelope.svg" alt="" />
+            <img src={iconEnvelope} alt="Envelope" />
             <span>hcarazasnires@gmail.com</span>
           </div>
           <div className="flex gap-4">
-            <img src="/icons/telephone.svg" alt="" />
+            <img src={iconTelephone} alt="Telephone" />
             <span>+51 993779470</span>
           </div>
         </div>
